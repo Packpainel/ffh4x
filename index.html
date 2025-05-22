@@ -3,9 +3,49 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Pack Painéis Free Fire</title>
-  <link rel="icon" href="favicon.png" type="image/png" />
-  <link rel="stylesheet" href="style.css">
+  <title>Pack de Painéis - Free Fire</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="favicon.png" type="image/png">
+  <style>
+    .testimonial-cards {
+      display: grid;
+      gap: 20px;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+
+    .card {
+      background: #1e1e1e;
+      padding: 20px;
+      border: 1px solid #333;
+      border-radius: 6px;
+      font-style: italic;
+      color: #f1f1f1;
+      text-align: center;
+    }
+
+    .card img {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      margin-bottom: 10px;
+    }
+
+    .pack-card {
+      position: relative;
+    }
+
+    .selo-venda {
+      position: absolute;
+      top: -10px;
+      right: -10px;
+      background: #ff4444;
+      color: white;
+      padding: 5px 10px;
+      border-radius: 8px;
+      font-size: 12px;
+      font-weight: bold;
+    }
+  </style>
 </head>
 <body>
 
@@ -20,13 +60,11 @@
       <h2 class="hero-title">Painéis exclusivos 100% HS para Free Fire</h2>
       <p class="hero-subtitle">Deixe qualquer partida no modo fácil!</p>
 
-      <!-- Vídeo -->
       <video autoplay muted loop playsinline class="hero-video">
         <source src="apresentacao.mp4" type="video/mp4" />
         Seu navegador não suporta a reprodução de vídeo.
       </video>
 
-      <!-- Botão abaixo do vídeo -->
       <a href="#comprar" class="btn-primary">Comprar Agora</a>
     </div>
   </section>
@@ -50,10 +88,12 @@
       <h2>Veja o que dizem nossos clientes:</h2>
       <div class="testimonial-cards">
         <div class="card">
+          <img src="cliente1.jpg" alt="Luan FF">
           <p>"Painéis incríveis, agora não perco um apostado!"</p>
           <span>— Luan FF</span>
         </div>
         <div class="card">
+          <img src="cliente2.jpg" alt="Dani Silva">
           <p>"Valeu demais! Fácil de fazer uma grana nos apostados usando o Painel."</p>
           <span>— Dani Silva</span>
         </div>
@@ -70,8 +110,8 @@
         <div class="pack-card pack-normal">
           <h3>Pack Normal</h3>
           <ul>
-            <li>Um painel</li>
-            <li>Uma sensi</li>
+            <li>APENAS UM PAINEL</li>
+            <li>E UMA SENSI</li>
           </ul>
           <span class="preco">R$ 9,90</span>
           <a href="https://go.tribopay.com.br/g5gso" class="btn-pack-normal" target="_blank">Comprar</a>
@@ -79,20 +119,28 @@
 
         <!-- Pack Premium -->
         <div class="pack-card pack-premium">
+          <div class="selo-venda">MAIS VENDIDO</div>
           <h3>🔥 Pack Premium 🔥</h3>
-          <p>⭐⭐⭐⭐ (9,98% COMPRA)</p>
+          <p>⭐⭐⭐⭐⭐ (Mais Vendido!)</p>
           <ul>
             <li>+3 painéis exclusivos</li>
             <li>Sensi e muito mais</li>
-            <li>Painel anti-tela e black list/ban perma</li>
+            <li>Painel anti-tela, black list e ban permanente</li>
             <li>Suporte no WhatsApp</li>
+            <li>Atualizações grátis </li>
           </ul>
-          <span class="preco destaque">R$ 19,98</span>
-          <a href="https://go.tribopay.com.br/mliwelydme" class="btn-pack-premium" target="_blank">Comprar Agora</a>
+          <span class="preco destaque">
+            <s style="color: #999; font-size: 16px;">R$197</s><br>
+            R$14,98
+          </span>
+          <a href="https://go.tribopay.com.br/juovd" class="btn-pack-premium" target="_blank">Liberar Acesso Agora com Desconto 🔥</a>
+        
         </div>
-
-      </div> <!-- fecha pack-opcoes -->
-    </div> <!-- fecha container -->
+<p style="color: #ffcc00; font-size: 14px; margin-top: 10px;">
+            Promoção por tempo limitado! Preço volta ao normal a qualquer momento.
+          </p>
+      </div>
+    </div>
   </section>
 
 </body>
