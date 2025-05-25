@@ -93,7 +93,6 @@ body {
   text-align: center;
 }
 
-/* Centralizar no container */
 .hero .container {
   text-align: center;
 }
@@ -101,8 +100,6 @@ body {
 .btn-primary:hover {
   background: #ffe066;
 }
-
-
 
 /* Benefícios */
 .benefits {
@@ -129,11 +126,13 @@ body {
 .testimonials {
   background: #121212;
   padding: 60px 20px;
+  text-align: center;
 }
 
 .testimonial-cards {
   display: grid;
   gap: 20px;
+  justify-content: center;
 }
 
 .card {
@@ -142,6 +141,16 @@ body {
   border: 1px solid #333;
   border-radius: 6px;
   font-style: italic;
+  max-width: 400px;
+  text-align: center;
+}
+
+.card img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  object-fit: cover;
 }
 
 /* Seção de compra */
@@ -214,10 +223,18 @@ body {
   color: #ff4444;
 }
 
+/* Card Premium destaque extra */
+.pack-premium {
+  border: 3px solid #ffcc00;
+  background: linear-gradient(#2b2b2b, #1a1a1a);
+  box-shadow: 0 0 25px #ffcc00;
+  transform: scale(1.03);
+}
+
 /* Botão Pack Normal */
 .btn-pack-normal {
   display: inline-block;
-  padding: 12px 20px;
+  padding: 14px 24px;
   background-color: #666;
   color: #fff;
   text-decoration: none;
@@ -229,7 +246,7 @@ body {
   background-color: #888;
 }
 
-/* Botão Pack Premium com animação */
+/* Animação botão Premium */
 @keyframes pulse {
   0% { box-shadow: 0 0 10px #ff4444; }
   50% { box-shadow: 0 0 20px #ffcc00; }
@@ -288,6 +305,7 @@ body {
   }
 }
 
+/* Cronômetro topo fixo */
 .cronometro-container {
   background-color: #111;
   color: #fff;
@@ -299,4 +317,53 @@ body {
   position: sticky;
   top: 0;
   z-index: 1000;
+}
+
+/* Aviso unidades limitadas */
+.aviso-limitado {
+  color: #ff4c4c;
+  background-color: #1a1a1a;
+  padding: 12px 20px;
+  border: 2px solid #ff4c4c;
+  border-radius: 8px;
+  font-weight: bold;
+  text-align: center;
+  font-size: 18px;
+  margin: 30px auto;
+  width: fit-content;
+  animation: avisoPulse 1s infinite alternate;
+  @keyframes avisoPulse {
+  from {
+    transform: scale(1);
+    opacity: 1;
+  }
+  to {
+    transform: scale(1.05);
+    opacity: 0.8;
+  }
+}
+
+}
+
+/* Animação separada para aviso */
+@keyframes avisoPulse {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.05);
+  }
+}
+
+/* Selos de segurança */
+.selos-seguranca {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.selos-seguranca img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+  box-shadow: 0 0 10px #000;
 }
