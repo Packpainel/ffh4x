@@ -1,67 +1,13 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-<!-- TikTok Pixel Code Start -->
-<script>
-!function (w, d, t) {
-  w.TiktokAnalyticsObject=t;var ttq=w[t]=w[t]||[];ttq.methods=["page","track","identify","instances","debug","on","off","once","ready","alias","group","enableCookie","disableCookie","holdConsent","revokeConsent","grantConsent"],ttq.setAndDefer=function(t,e){t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}};for(var i=0;i<ttq.methods.length;i++)ttq.setAndDefer(ttq,ttq.methods[i]);ttq.instance=function(t){for(
-var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++)ttq.setAndDefer(e,ttq.methods[n]);return e},ttq.load=function(e,n){var r="https://analytics.tiktok.com/i18n/pixel/events.js",o=n&&n.partner;ttq._i=ttq._i||{},ttq._i[e]=[],ttq._i[e]._u=r,ttq._t=ttq._t||{},ttq._t[e]=+new Date,ttq._o=ttq._o||{},ttq._o[e]=n||{};n=document.createElement("script")
-;n.type="text/javascript",n.async=!0,n.src=r+"?sdkid="+e+"&lib="+t;e=document.getElementsByTagName("script")[0];e.parentNode.insertBefore(n,e)};
-
-
-  ttq.load('D0OVG9JC77U3N57DKIMG');
-  ttq.page();
-}(window, document, 'ttq');
-</script>
-<!-- TikTok Pixel Code End -->
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Pack de Painéis - Free Fire</title>
   <link rel="stylesheet" href="style.css" />
   <link rel="icon" href="favicon.png" type="image/png">
-  <style>
-    .testimonial-cards {
-      display: grid;
-      gap: 20px;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    }
-
-    .card {
-      background: #1e1e1e;
-      padding: 20px;
-      border: 1px solid #333;
-      border-radius: 6px;
-      font-style: italic;
-      color: #f1f1f1;
-      text-align: center;
-    }
-
-    .card img {
-      width: 60px;
-      height: 60px;
-      border-radius: 50%;
-      margin-bottom: 10px;
-    }
-
-    .pack-card {
-      position: relative;
-    }
-
-    .selo-venda {
-      position: absolute;
-      top: -10px;
-      right: -10px;
-      background: #ff4444;
-      color: white;
-      padding: 5px 10px;
-      border-radius: 8px;
-      font-size: 12px;
-      font-weight: bold;
-    }
-  </style>
 </head>
 <body>
-
   <div class="cronometro-container">
     ⏰ Oferta termina em: <span id="countdown">05:00</span>
   </div>
@@ -72,12 +18,10 @@ var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++)ttq.setAndDefer(e,ttq.methods[n
     <div class="container">
       <h2 class="hero-title">Painéis exclusivos 100% HS para Free Fire</h2>
       <p class="hero-subtitle">Deixe qualquer partida no modo fácil!</p>
-
       <video autoplay muted loop playsinline class="hero-video">
         <source src="apresentacao.mp4" type="video/mp4" />
         Seu navegador não suporta a reprodução de vídeo.
       </video>
-
       <a href="#comprar" class="btn-primary">Comprar Agora</a>
     </div>
   </section>
@@ -89,7 +33,7 @@ var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++)ttq.setAndDefer(e,ttq.methods[n
         <div class="benefit-item">🎮 +3 painéis privados</div>
         <div class="benefit-item">🥋 100% hs sem peito!</div>
         <div class="benefit-item">📁 Painel editável (POV, taxa de hs, bypass e muito mais!)</div>
-        <div class="benefit-item">☯︎ Várias sensi para diferentes celulares</div>
+        <div class="benefit-item">☯️ Várias sensi para diferentes celulares</div>
         <div class="benefit-item">🥇 Garantia de anti-ban! </div>
         <div class="benefit-item">⚡️ Envio imediato após compra</div>
       </div>
@@ -101,51 +45,61 @@ var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++)ttq.setAndDefer(e,ttq.methods[n
       <h2>Veja o que dizem nossos clientes:</h2>
       <div class="testimonial-cards">
         <div class="card">
-          <img src="cliente1.jpg" alt="Luan FF">
+          <img src="cliente1.jpg" alt="Cliente 1" class="testimonial-img">
           <p>"Painéis incríveis, agora não perco um apostado!"</p>
           <span>— Luan FF</span>
         </div>
         <div class="card">
-          <img src="cliente2.jpg" alt="Dani Silva">
+          <img src="cliente2.jpg" alt="Cliente 2" class="testimonial-img">
           <p>"Valeu demais! Fácil de fazer uma grana nos apostados usando o Painel."</p>
           <span>— Dani Silva</span>
         </div>
       </div>
     </div>
   </section>
-
   <section id="comprar" class="comprar-section">
-    <div class="container">
-      <h2>Escolha seu Pack</h2>
-      <div class="pack-opcoes">
+  <div class="container">
+    <h2>Escolha seu Pack</h2>
 
-        
+    <div class="pack-opcoes">
+      <div class="pack-card pack-normal">
+        <h3>Pack Normal</h3>
+        <ul>
+          <li>APENAS UM PAINEL</li>
+          <li>E UMA SENSI</li>
+        </ul>
+        <span class="preco">R$ 9,90</span>
+        <a href="https://global.tribopay.com.br/swmh8" class="btn-pack-normal" target="_blank">Comprar</a>
+      </div>
 
-        <!-- Pack Premium -->
-        <div class="pack-card pack-premium">
-          <div class="selo-venda">MAIS VENDIDO</div>
-          <h3>🔥 Pack Premium 🔥</h3>
-          <p>⭐⭐⭐⭐⭐ (Mais Vendido!)</p>
-          <ul>
-            <li>+3 painéis exclusivos</li>
-            <li>Sensi e muito mais</li>
-            <li>Painel anti-tela, black list e ban permanente</li>
-            <li>Suporte no WhatsApp</li>
-            <li>Atualizações grátis </li>
-          </ul>
-          <span class="preco destaque">
-            <s style="color: #999; font-size: 16px;">R$197</s><br>
-            R$9,98
-          </span>
-          <a href="https://go.tribopay.com.br/g5gso" class="btn-pack-premium" target="_blank">Adquirir Agora com Desconto 🔥</a>
-        </div>
+      <div class="pack-card pack-premium">
+        <h3>🔥 Pack Premium 🔥</h3>
+        <p>⭐⭐⭐⭐⭐ (Mais Vendido!)</p>
+        <ul>
+          <li>🔥 +3 painéis secretos</li>
+          <li>🎯 Sensis vazadas</li>
+          <li>🚫 Proteção avançada: anti-tela, anti-blacklist e anti-ban</li>
+          <li>💬 Suporte VIP via WhatsApp — tire dúvidas em minutos</li>
+          <li>🔄 Acesso vitalício e atualizações grátis</li>
+        </ul>
+        <span class="preco destaque">
+          <s style="color: #999; font-size: 16px;">R$197</s><br>
+          R$14,98
+        </span>
+        <a href="https://go.tribopay.com.br/juovd" class="btn-pack-premium" target="_blank">Quero o Premium com Desconto</a>
       </div>
     </div>
 
-<h1 style="color: #ffcc00; font-size: 14px; margin-top: 10px;">
-            Promoção por tempo limitado! Preço volta ao normal a qualquer momento.
-</h1>
-  </section>
+    <!-- AVISO CENTRALIZADO, FORA DAS "pack-opcoes" -->
+    <div class="aviso-wrapper">
+      <p class="aviso-limitado">⚠️ <span id="contador">50</span> unidades com desconto disponíveis</p>
+    </div>
 
+    <!-- Selos de segurança -->
+    <div class="selos-seguranca">
+      <img src="seguranca.png" alt="Formas de pagamento e segurança" />
+    </div>
+  </div>
+</section>
 </body>
 </html>
