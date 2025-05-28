@@ -398,3 +398,38 @@ body {
   font-size: 1.2rem;
   font-weight: 500;
 }
+
+
+
+.prova-social {
+  padding: 60px 20px;
+  background-color: #111;
+  color: #fff;
+  text-align: center;
+}
+
+.prova-social h2 {
+  font-size: 28px;
+  margin-bottom: 30px;
+  color: #00ffc3;
+}
+
+.provas-imgs {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.prova-img {
+  width: 300px;
+  max-width: 90%;
+  border: 2px solid #00ffc3;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 255, 200, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.prova-img:hover {
+  transform: scale(1.05);
+}
